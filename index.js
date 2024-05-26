@@ -51,7 +51,10 @@ allowedOrigins = [
 //   next();
 // });
 const corsOptions = {
-  origin: allowedOrigins,
+  origin: [allowedOrigins,  "http://localhost:3000",
+  "http://localhost:3001",
+  "https://shopsmartwiki-admin-jyjpjhmvk-muhammad-qasims-projects-02ba7fcf.vercel.app/",
+  "https://shopsmartwiki.vercel.app/"],
   credentials: true, // Enable CORS credentials
   methods: ["GET", "POST", "PUT", "PATCH", "DELETE"], // Define allowed HTTP methods
 };
