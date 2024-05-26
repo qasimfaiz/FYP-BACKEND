@@ -43,7 +43,8 @@ allowedOrigins = [
   AdminURL,
   "http://localhost:3000",
   "http://localhost:3001",
-  "https://shopsmartwiki-admin-jyjpjhmvk-muhammad-qasims-projects-02ba7fcf.vercel.app/"
+  "https://shopsmartwiki-admin-jyjpjhmvk-muhammad-qasims-projects-02ba7fcf.vercel.app/",
+  "https://shopsmartwiki.vercel.app/"
 ];
 // app.use((req, res, next) => {
 //   res.header("Access-Control-Allow-Origin", *);
